@@ -1,0 +1,103 @@
+body {
+background-color: white;
+font-family: 'Avenir', sans-serif;
+}
+nav {
+  background-color: #2f624c;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100vw;
+  z-index: 1;
+}
+nav ul li {
+  float: right;
+  margin-right: 50px;
+  list-style-type: none;
+  text-align: center;
+}
+#brand {
+float: left
+}
+footer{
+  background-color: #649474;
+  position: absolute;
+  bottom: 0px;
+  margin-left: -8px;
+  height: 30px;
+  width: 100vw;
+  text-align: center;
+  font-family: 'Avenir Bold', sans-serif;
+}
+.nav-link{
+  color: white;
+  text-decoration: none;
+  font-family: 'Avenir Bold', sans-serif;
+}
+.nav-link:hover {
+  color: #649474;
+  font-weight: thin;
+}
+#brand .nav-link {
+color: #649474;
+font-size: 14pt;
+}
+#brand .nav-link:hover {
+  color: #1b2a19;
+  font-weight: bold;
+}
+h1{
+  font-size: 60pt;
+  color: white;
+  font-family: 'Avenir', sans-serif;
+}
+h3{
+  font-size: 20pt;
+  color: white;
+  font-family: 'Avenir', sans-serif;}
+#home {
+  margin-top: 50px;
+  position: relative;
+  left: -8px;
+  width: 100vw;
+  height: 300px;
+  padding-top: 3em;
+  background: url(https://images.pexels.com/photos/2409038/pexels-photo-2409038.jpeg?cs=srgb&dl=photo-of-swiss-cheese-plant-leaves-2409038.jpg&fm=jpg) center 75% no-repeat fixed;
+  background-size: cover;
+}
+.header-tag {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 2px #1b2a19;
+}
+h3.header-tag {
+  margin-top: -40px;
+  font-size: 18pt;
+}
+h2{
+  font-family: 'Avenir' sans-serif;
+  color: black;
+}
+.main{
+  margin-top: 50px;
+}
+#about {
+  margin-top: 50px;
+  display: inline-block;
+}
+#about-picture {
+  width: 30vw;
+  float: left;
+}
+#profile-pic {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px black;
+}
+#about-content {
+  width: 40vw;
+  float: right;
+}
